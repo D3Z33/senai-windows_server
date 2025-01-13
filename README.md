@@ -53,47 +53,51 @@ Prepare-se para um projeto que combina:
 ### 🖥️ **Interface Interativa**
 
 - Desenvolvida com **Tkinter**, a interface oferece uma experiência **imersiva e dinâmica**:
+
   - **Pop-ups interativos**: Alguns necessitam de interação do aluno para prosseguir, enquanto outros simulam eventos automáticos do sistema.
-<br>
+
   - **Questões aleatórias**: 15 perguntas criadas para ensinar de forma leve e divertida.
-<br>
+
   - **Temporizador**: 60 segundos por pergunta, com reinício a cada nova questão. Na última, o tempo é congelado para encerramento da prova.
-<br>
+
   - **Barra de progresso**: Acompanhada de mensagens motivadoras (ou provocativas) que evoluem conforme o desempenho do aluno.
-<br>
-<br>
+
+---
 
 ### 🛡️ **Arquivos Maliciosos Educativos**
+
 - **9 exemplos simulados de ameaças reais**: Incluem Backdoor, Keylogger, Worm, Adware, etc.
 
   - Arquivos maliciosos são inseridos em **pastas pouco usuais** no sistema.
-<br>
+
   - Cada arquivo acompanha um **.txt explicativo**, detalhando o impacto e a forma de mitigação.
-<br>
+
   - **Execução bloqueada** sem a leitura prévia do arquivo .txt, garantindo que o aluno entenda os riscos antes de prosseguir.
+
+---
 
 ### 🔒 **Escalação de Privilégios**
 
 A exploração de permissões administrativas ou configurações inadequadas do sistema foi exemplificada por 9 arquivos maliciosos cuidadosamente desenvolvidos, cada um simulando uma ameaça real. Aqui está um **spoiler** do que cada um deles faz:
 
 - **Adware (`adware_senai.py`)**: Simula a criação de janelas pop-up persistentes, demonstrando como softwares invasivos podem bombardear o sistema com anúncios.
-<br>
+
 - **Backdoor (`backdoor_senai.py`)**: Abre uma porta de comunicação (4444), permitindo acesso remoto e coletando informações sensíveis como IP, hardware e versão do sistema operacional.
-<br>
+
 - **Cryptominer (`cryptominer_senai.py`)**: Mostra o impacto de um minerador de criptomoedas, utilizando recursos da máquina de forma indesejada e consumindo CPU e memória.
-<br>
+
 - **Downloader (`downloader_senai.py`)**: Automatiza o download e a execução de arquivos adicionais, exemplificando como um malware pode expandir seu alcance.
-<br>
+
 - **File Manager (`file_manager.py`)**: Manipula pastas e arquivos do sistema, destacando o perigo de permissões mal configuradas.
-<br>
+
 - **Keylogger (`keylogger_senai.py`)**: Captura as entradas de teclado do usuário, simulando o roubo de credenciais e outras informações sensíveis.
-<br>
+
 - **Spyware (`spyware_senai.py`)**: Monitora atividades no sistema, coletando dados confidenciais como histórico de navegação e uso de aplicativos.
-<br>
+
 - **Notifier (`notifi_senai.py`)**: Envia relatórios e notificações sobre atividades da máquina para um destinatário remoto, ilustrando um comportamento típico de malwares de vigilância.
-<br>
+
 - **Worm (`worm_senai.py`)**: Demonstra a propagação autônoma em dispositivos conectados, simulando um cenário de ataque em rede.
-<br>
+
 Cada arquivo acompanha um `.txt` explicativo, detalhando o funcionamento, o impacto e as medidas de mitigação associadas à ameaça. Esses arquivos foram projetados para proporcionar uma experiência educacional imersiva, enfatizando os riscos e desafios enfrentados no ambiente corporativo.
 
 ### 📲 **Integração com Telegram**
