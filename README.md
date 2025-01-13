@@ -19,7 +19,7 @@
 2. [Estrutura do Projeto](#estrutura-do-projeto)
 3. [Como Usar](#como-usar)
 4. [Aprendizados e Impacto](#aprendizados-e-impacto)
-5. [Licença](#licença)
+5. [Contato e Redes](#contato-e-redes).
 
 ---
 ## **Sobre o Projeto**
@@ -188,24 +188,3 @@ Este projeto é mais do que apenas linhas de código; é o resultado de uma jorn
 E se você chegou até aqui, parabéns! Você não só leu sobre um projeto incrível, mas também testemunhou como ideias simples podem se transformar em algo grandioso. Agora, respire fundo, reflita sobre tudo o que acabou de explorar e, quem sabe, deixe-se inspirar a criar algo tão ousado quanto isso.
 
 **Afinal, o conhecimento é a arma mais poderosa — e quando você aprende a usá-lo com propósito, o impacto é simplesmente inigualável.** 🚀
-
----
-
-**⚡ Easter Egg: A Sociedade Secreta dos Leitores de README**  
-🎩 **Parabéns, viajante do conhecimento!** Você desbloqueou um segredo oculto. Só os mais dedicados leitores de README chegam até aqui.  
-
-Agora que você está no círculo interno, prove seu valor:  
-1️⃣ Comente neste repositório a frase mágica:  
-   _"Eu fui além do código e entrei no Hall dos Hackers Éticos."_  
-
-2️⃣ O que acontece depois? 🤔  
-   Você receberá o título oficial de **Guardião dos README Perdidos** e, quem sabe... um meme secreto enviado diretamente por telepatia digital (ou talvez uma resposta bem engraçada minha por aqui mesmo 😂).  
-
-3️⃣ **Dica Extra**: Olhe bem no código, talvez você encontre outra surpresa... Ou talvez não. Quem sabe? 👀  
-
----
-
-**Atenção**: Este Easter Egg contém níveis elevados de sarcasmo, humor e mistério. Se você acha que descobriu algo realmente incrível, é porque provavelmente descobriu mesmo. 😉
-
-
-
