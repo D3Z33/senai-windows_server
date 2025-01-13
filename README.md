@@ -21,15 +21,15 @@
 
 ## 📋 **Tabela de Conteúdos**
 
-1️⃣ [Sobre o Projeto](#sobre-o-projeto)
-<br>
+1️⃣ [Sobre o Projeto](#sobre-o-projeto)  
+
 2️⃣ [Estrutura do Projeto](#estrutura-do-projeto)  
-<br>
+
 3️⃣ [Como Usar](#como-usar)  
-<br>
+
 4️⃣ [Aprendizados e Impacto](#aprendizados-e-impacto)  
-<br>
-5️⃣ [Contato e Redes](#-contato-e-redes)
+
+5️⃣ [Contato e Redes](#-contato-e-redes)  
 
 ---
 ## **Sobre o Projeto**
@@ -101,14 +101,18 @@ A exploração de permissões administrativas ou configurações inadequadas do 
 Cada arquivo acompanha um `.txt` explicativo, detalhando o funcionamento, o impacto e as medidas de mitigação associadas à ameaça. Esses arquivos foram projetados para proporcionar uma experiência educacional imersiva, enfatizando os riscos e desafios enfrentados no ambiente corporativo.
 
 ### 📲 **Integração com Telegram**
-- Envio de **dados em tempo real** para o Telegram de informações cruciais diretamente para o Telegram, garantindo total controle e monitoramento das atividades da prova:
-<br>
-  - Dados coletados incluem: endereço IP, permissões de usuário, localização (quando disponível), tipo de conta, sistema operacional, e diversos detalhes adicionais.
-<br>
-  - Relatórios detalhados sobre a execução de cada arquivo malicioso são enviados, permitindo análise precisa e rápida das interações realizadas durante a prova.
+
+- Envio de **dados em tempo real** para o Telegram, garantindo total controle e monitoramento das atividades da prova.  
+
+  - Dados coletados incluem: endereço IP, permissões de usuário, localização (quando disponível), tipo de conta, sistema operacional, e diversos detalhes adicionais.  
+
+  - Relatórios detalhados sobre a execução de cada arquivo malicioso são enviados, permitindo análise precisa e rápida das interações realizadas durante a prova.  
+
+---
 
 ### 🧹 **Scripts de Limpeza**
-- Inclui o arquivo `remover_arquivos.py`, que permite ao aluno limpar o ambiente de teste após concluir a prova.
+
+- Inclui o arquivo `remover_arquivos.py`, que permite ao aluno limpar o ambiente de teste após concluir a prova.  
 
 ---
 
