@@ -1,4 +1,4 @@
-# 🔒 **Prova Interativa com Escalação de Privilégios**
+# 🔒 **Projeto - Windows Server_Senai**
 
 ![Logo do Projeto](arquivos/senai_logo.png)
 
