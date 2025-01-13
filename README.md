@@ -51,7 +51,7 @@ Prepare-se para um projeto que combina:
 ## **Principais Funcionalidades**
 
 ### 🖥️ **Interface Interativa**
-<br>
+
 - Desenvolvida com **Tkinter**, a interface oferece uma experiência **imersiva e dinâmica**:
   - **Pop-ups interativos**: Alguns necessitam de interação do aluno para prosseguir, enquanto outros simulam eventos automáticos do sistema.
 <br>
@@ -65,18 +65,17 @@ Prepare-se para um projeto que combina:
 
 ### 🛡️ **Arquivos Maliciosos Educativos**
 - **9 exemplos simulados de ameaças reais**: Incluem Backdoor, Keylogger, Worm, Adware, etc.
-<br>
+
   - Arquivos maliciosos são inseridos em **pastas pouco usuais** no sistema.
 <br>
   - Cada arquivo acompanha um **.txt explicativo**, detalhando o impacto e a forma de mitigação.
 <br>
   - **Execução bloqueada** sem a leitura prévia do arquivo .txt, garantindo que o aluno entenda os riscos antes de prosseguir.
-<br>
-<br>
+
 ### 🔒 **Escalação de Privilégios**
 
 A exploração de permissões administrativas ou configurações inadequadas do sistema foi exemplificada por 9 arquivos maliciosos cuidadosamente desenvolvidos, cada um simulando uma ameaça real. Aqui está um **spoiler** do que cada um deles faz:
-<br>
+
 - **Adware (`adware_senai.py`)**: Simula a criação de janelas pop-up persistentes, demonstrando como softwares invasivos podem bombardear o sistema com anúncios.
 <br>
 - **Backdoor (`backdoor_senai.py`)**: Abre uma porta de comunicação (4444), permitindo acesso remoto e coletando informações sensíveis como IP, hardware e versão do sistema operacional.
@@ -96,16 +95,14 @@ A exploração de permissões administrativas ou configurações inadequadas do 
 - **Worm (`worm_senai.py`)**: Demonstra a propagação autônoma em dispositivos conectados, simulando um cenário de ataque em rede.
 <br>
 Cada arquivo acompanha um `.txt` explicativo, detalhando o funcionamento, o impacto e as medidas de mitigação associadas à ameaça. Esses arquivos foram projetados para proporcionar uma experiência educacional imersiva, enfatizando os riscos e desafios enfrentados no ambiente corporativo.
-<br>
-<br>
+
 ### 📲 **Integração com Telegram**
 - Envio de **dados em tempo real** para o Telegram de informações cruciais diretamente para o Telegram, garantindo total controle e monitoramento das atividades da prova:
 <br>
   - Dados coletados incluem: endereço IP, permissões de usuário, localização (quando disponível), tipo de conta, sistema operacional, e diversos detalhes adicionais.
 <br>
   - Relatórios detalhados sobre a execução de cada arquivo malicioso são enviados, permitindo análise precisa e rápida das interações realizadas durante a prova.
-<br>
-<br>
+
 ### 🧹 **Scripts de Limpeza**
 - Inclui o arquivo `remover_arquivos.py`, que permite ao aluno limpar o ambiente de teste após concluir a prova.
 
