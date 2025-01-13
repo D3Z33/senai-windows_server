@@ -14,12 +14,13 @@
 
 ---
 
-## 📋 Tabela de Conteúdos
-1. [Sobre o Projeto](#sobre-o-projeto)
-2. [Estrutura do Projeto](#estrutura-do-projeto)
-3. [Como Usar](#como-usar)
-4. [Aprendizados e Impacto](#aprendizados-e-impacto)
-5. [Contato e Redes](#contato-e-redes)
+## 📋 **Tabela de Conteúdos**
+
+1️⃣ [Sobre o Projeto](#sobre-o-projeto)  
+2️⃣ [Estrutura do Projeto](#estrutura-do-projeto)  
+3️⃣ [Como Usar](#como-usar)  
+4️⃣ [Aprendizados e Impacto](#aprendizados-e-impacto)  
+5️⃣ [Contato e Redes](#contato-e-redes)  
 
 ---
 ## **Sobre o Projeto**
