@@ -20,7 +20,7 @@
 2️⃣ [Estrutura do Projeto](#estrutura-do-projeto)  
 3️⃣ [Como Usar](#como-usar)  
 4️⃣ [Aprendizados e Impacto](#aprendizados-e-impacto)  
-5️⃣ [Contato e Redes](#contato-e-redes)
+5️⃣ [Contato e Redes](#-contato-e-redes)
 
 ---
 ## **Sobre o Projeto**
