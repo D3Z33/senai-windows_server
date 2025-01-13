@@ -141,9 +141,14 @@ Cada arquivo malicioso acompanha um **.txt explicativo** para oferecer uma exper
 ---
 
 ## **Como Usar**
-⚠ **Atenção**: Este projeto foi criado **exclusivamente para fins educacionais** e deve ser utilizado **apenas em ambientes controlados**. Ele não foi feito para brincadeiras irresponsáveis ou experimentos fora de contexto. Se você está pensando em executá-lo no seu sistema principal, **pare agora mesmo e repense suas escolhas**! 
+
+<div style="background-color: #f8f9fa; border-left: 5px solid #ffc107; padding: 15px; margin: 15px 0; font-size: 14px;">
+
+⚠️ **Atenção:** Este projeto foi criado **exclusivamente para fins educacionais** e deve ser utilizado **apenas em ambientes controlados**. Ele não foi feito para brincadeiras irresponsáveis ou experimentos fora de contexto. Se você está pensando em executá-lo no seu sistema principal, **pare agora mesmo e repense suas escolhas**!  
 
 Por questões de segurança (e sanidade), **o código-fonte não será fornecido a qualquer pessoa**. Apenas aqueles que **realmente entendem o que estão fazendo** terão acesso, e isso significa saber compilar, executar e **não causar caos desnecessário no sistema ou na rede**. Se você não tem certeza, consulte alguém que saiba ou… melhor ainda, estude mais antes de tentar algo assim. 🧠
+
+</div>
 
 Agora que deixamos isso claro, aqui vai o guia para os **responsáveis e preparados**:
 
