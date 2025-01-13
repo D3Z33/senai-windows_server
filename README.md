@@ -2,9 +2,15 @@
 
 <div align="center">
 
-![Status](https://img.shields.io/badge/Status-Concluído-brightgreen) 
-![Linguagem](https://img.shields.io/badge/Linguagem-Python-blue) 
-![Licença](https://img.shields.io/badge/Licença-Educacional-important)
+<div align="center">
+
+![✔️ Status](https://img.shields.io/badge/%E2%9C%94%EF%B8%8F-Status-Concluído-brightgreen?style=for-the-badge) 
+![💻 Linguagem](https://img.shields.io/badge/%F0%9F%92%BB-Linguagem-Python-blue?style=for-the-badge) 
+![📜 Licença](https://img.shields.io/badge/%F0%9F%93%9C-Licença-Educacional-orange?style=for-the-badge)
+
+</div>
+
+---
 
 </div>
 
