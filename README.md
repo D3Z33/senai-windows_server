@@ -20,7 +20,7 @@
 2️⃣ [Estrutura do Projeto](#estrutura-do-projeto)  
 3️⃣ [Como Usar](#como-usar)  
 4️⃣ [Aprendizados e Impacto](#aprendizados-e-impacto)  
-5️⃣ [Contato e Redes](#contato-e-redes)  
+5️⃣ [Contato e Redes](#contato-e-redes)
 
 ---
 ## **Sobre o Projeto**
@@ -175,6 +175,7 @@ O projeto não apenas entregou aprendizado técnico, mas também me trouxe momen
 Este projeto não foi apenas uma demonstração técnica; foi uma experiência completa que misturou aprendizado, criatividade e momentos de descoberta. Ele mostrou como é possível transformar desafios em oportunidades e como cada linha de código pode contar uma história de inovação e impacto.
 
 ---
+
 ## 🔗 Contato e Redes
 
 - [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)](https://github.com/D3Z33)
