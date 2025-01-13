@@ -1,0 +1,33 @@
+🎉 PARABÉNS! VOCÊ FOI ESCOLHIDO PARA PARTICIPAR DA ZOEIRA! 🎉
+
+💾 Bem-vindo ao Gerenciador de Arquivos SENAI 💾
+
+Este software foi especialmente desenvolvido para testar sua paciência, criatividade e... 
+talvez, quebrar alguns paradigmas sobre o que NÃO se deve fazer em ambientes de TI. 😅
+
+🧐 O que ele faz?
+
+- Ele adora criptografar seus arquivos e guardar a chave a sete chaves (ou seriam 10 dígitos?). 🔒
+- Ele não apenas bloqueia seus arquivos, mas também espalha "presentinhos" por diversas pastas do sistema. 🎁
+- Insere mensagens educativas, motivacionais (ou nem tanto) e muito engraçadas para você aproveitar o show. 🎭
+- É um ransomware, mas com um toque de caos calculado para tornar tudo mais divertido (ou desesperador?). 😂
+
+
+🔑 Spoiler sobre a senha:
+
+A senha está bem debaixo do seu nariz. Literalmente, em algum lugar **na sua pasta 'Downloads'**. Mas calma, não é tão fácil assim! 
+Aqui estão algumas dicas:
+
+1. 🎲 É um código gerado pelo próprio programa. Ele gosta de se exibir em lugares bem óbvios.
+2. 🕵️‍♂️ Dê uma olhada nos "arquivos novos" na pasta Downloads. Eles podem ser um pouco mais... _aleatórios_ do que os outros. 👀
+3. 📂 A senha é escondida nos detalhes. Olhe bem cada arquivo. Algumas pistas estarão nos logs ou nos arquivos TXT gerados.
+4. 🤔 Dica final: ela pode estar... na cara, mas talvez você tenha que "olhar dentro". 🧠
+
+
+📜 Palavras Finais
+
+- Não culpe o Fontes por isso, ele só queria ensinar sobre GPOs. 🙄
+- Se você realmente não encontrar a senha, pense como o Chile: "Onde eu esconderia algo muito importante que ninguém acharia?".
+- E, claro, sempre lembre: **o importante é o aprendizado... e rir bastante disso depois!** 😂
+
+Boa sorte e que a zoeira esteja com você! 🙌

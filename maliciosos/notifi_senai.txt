@@ -1,0 +1,27 @@
+*** Explicativo do Comportamento Simulado - Ransomware Notificador Educacional (ransomware_notificador_senai.py) ***
+
+Descrição:
+
+Este arquivo simula o comportamento de notificação de um ransomware em um ambiente seguro e controlado. Ransomwares reais costumam exibir mensagens alarmantes, informando que os arquivos do usuário foram sequestrados e exigindo pagamento para liberar o acesso.
+
+Funcionamento:
+
+1. Exibe uma mensagem simulando uma exigência de resgate por arquivos sequestrados.
+
+2. Demonstra como ransomware utiliza táticas de medo e urgência para extorquir vítimas.
+
+Atenção:
+
+- Este é um comportamento simulado para fins educacionais. Nenhum arquivo real é sequestrado ou comprometido.
+
+- Este exemplo visa demonstrar a tática de intimidação usada por ransomwares.
+
+Objetivo Educacional:
+
+- Demonstrar como ransomwares notificam suas vítimas.
+
+- Conscientizar sobre os perigos do ransomware e as melhores práticas para prevenir infecções.
+
+*** AVISO IMPORTANTE ***
+
+Leia e compreenda esta explicação antes de executar o arquivo. O exemplo faz parte de uma simulação educacional controlada.

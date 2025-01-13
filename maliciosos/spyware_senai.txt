@@ -1,0 +1,51 @@
+Explicativo do Comportamento Simulado - Spyware Educacional (spyware_senai.py)
+Descrição:
+Este arquivo simula o comportamento de um spyware em um ambiente seguro e controlado. O spyware é projetado para coletar informações do sistema e do usuário sem o seu conhecimento, armazenando os dados em local específico. A simulação permite observar como um spyware opera e os riscos associados a informações não protegidas.
+
+Funcionamento:
+Criação de Diretório:
+
+Um diretório oculto chamado spyware_senai será criado na pasta C:/Windows/INF/.
+Coleta de Informações:
+
+Dados coletados incluem:
+Nome do usuário.
+Sistema operacional em uso.
+Hostname do sistema.
+Diretório de trabalho atual.
+Lista de arquivos no diretório atual.
+Processos ativos na máquina no momento da execução.
+Estas informações serão salvas no arquivo coleta_informacoes.txt dentro do diretório criado.
+Comportamento Notável:
+
+O script verifica e, se necessário, escala privilégios para administrador.
+Um alerta é enviado ao Telegram, informando sobre a execução do spyware, incluindo:
+Localização do script.
+IPs associados à máquina.
+Status de privilégios administrativos.
+Confirmação de Execução:
+
+Antes de executar, um pop-up é exibido perguntando se o arquivo explicativo foi lido.
+Se o aluno selecionar "Não", o script não prosseguirá.
+Objetivo Educacional:
+Demonstrar:
+O potencial de coleta de informações de um spyware.
+Como informações confidenciais podem ser comprometidas.
+Conscientizar:
+Sobre a importância de proteger informações sensíveis.
+A necessidade de ferramentas de detecção de spyware em sistemas.
+Localização dos Arquivos Gerados:
+Diretório de destino:
+
+javascript
+Copiar código
+C:/Windows/INF/spyware_senai/
+Arquivo gerado:
+
+Copiar código
+coleta_informacoes.txt
+Importante:
+Este comportamento é simulado em um ambiente controlado.
+Nenhuma informação será enviada a terceiros ou usada fora deste contexto educacional.
+Leia este documento atentamente antes de executar o script.
+

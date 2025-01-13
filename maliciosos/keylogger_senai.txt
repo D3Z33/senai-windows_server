@@ -1,0 +1,93 @@
+### **Explicativo do Comportamento - Keylogger**
+
+---
+
+### **OBS:**  
+***Antes de executar, mantenha o Gerenciador de Tarefas aberto para monitorar processos desconhecidos e, se necessário, encerre-os manualmente para dar continuidade aos estudos!***
+
+---
+
+### **Descrição Geral:**
+
+Este script simula o comportamento de um Keylogger em um ambiente controlado. Keyloggers reais são projetados para monitorar e registrar cada tecla digitada por um usuário, com o objetivo de capturar informações sensíveis como credenciais e comunicações privadas.  
+O objetivo deste script é educativo, demonstrando como tais ferramentas operam e seus potenciais impactos.
+
+---
+
+### **Comportamento Simulado:**
+
+1. **Registro de Teclas:**
+   - Todas as teclas digitadas pelo usuário são registradas e salvas em um arquivo de log no diretório `C:/ProgramData/keylogger_senai/` com o nome `teclas_registradas.txt`.
+
+2. **Encerramento Controlado:**
+   - O Keylogger permanece ativo até que o usuário pressione a tecla `ESC`. Quando encerrado:
+     - Um pop-up informativo é exibido, contendo:
+       - O caminho onde o arquivo de log foi salvo.
+       - Um botão para copiar o caminho diretamente para a área de transferência.
+
+3. **Criação Automática de Diretórios:**
+   - Caso o diretório `keylogger_senai` não exista em `C:/ProgramData`, ele será criado automaticamente para armazenar os logs.
+
+4. **Relatório Detalhado:**
+   - Durante a execução, o Keylogger gera um relatório detalhado contendo:
+     - Todas as teclas pressionadas, registradas no arquivo `teclas_registradas.txt`.
+     - Informações do sistema e do ambiente de execução.
+
+5. **Mensagem ao Telegram:**
+   - Ao iniciar, o script envia um alerta para um canal configurado no Telegram com:
+     - Nome do arquivo executado.
+     - Informações do sistema (usuário, host, IPs e privilégios administrativos).
+
+---
+
+### **Objetivo Educacional:**
+
+- Demonstrar como um Keylogger pode operar e registrar informações de entrada.
+- Explicar os riscos associados ao uso malicioso de Keyloggers.
+- Sensibilizar sobre a importância de detectar e mitigar ameaças de software que utilizam captura de entrada de teclado.
+
+---
+
+### **Interação do Aluno:**
+
+1. **Execução do Script:**
+   - Ao ser executado, o Keylogger começa a registrar todas as teclas pressionadas.
+   - O encerramento ocorre somente ao pressionar a tecla `ESC`, exibindo o pop-up informativo.
+
+2. **Acesso ao Log:**
+   - O log gerado pode ser acessado no diretório `C:/ProgramData/keylogger_senai/teclas_registradas.txt`.
+   - O caminho do log pode ser copiado diretamente do pop-up exibido ao final.
+
+---
+
+### **Avisos Importantes:**
+
+1. **Simulação Controlada:**
+   - Este script é completamente seguro e destinado exclusivamente ao uso em ambientes de teste. Nenhuma informação registrada é enviada para terceiros, exceto para o Telegram configurado.
+
+2. **Ambiente de Teste:**
+   - Execute este script apenas em máquinas de teste (máquinas virtuais ou ambientes isolados).
+
+3. **Aprendizado:**
+   - Leia e compreenda este documento antes de executar o arquivo.
+   - Observe o comportamento do Keylogger para entender sua aplicação e os riscos associados.
+
+4. **Importância da Documentação:**
+   - O relatório gerado detalha todas as teclas registradas, permitindo uma análise prática do impacto deste tipo de ferramenta.
+
+---
+
+### **Resumo do Impacto:**
+
+1. **Registro de Teclas:**
+   - Todas as teclas pressionadas são registradas, simulando o comportamento de um Keylogger real.
+
+2. **Pop-up Informativo:**
+   - Exibe informações detalhadas ao final da execução, permitindo fácil acesso ao log gerado.
+
+3. **Mensagem ao Telegram:**
+   - Informa sobre a execução do Keylogger, fornecendo detalhes do ambiente.
+
+---
+
+***Este exemplo é estritamente educacional e deve ser utilizado exclusivamente para aprendizado em ambientes controlados.***

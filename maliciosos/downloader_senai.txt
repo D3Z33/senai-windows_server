@@ -1,0 +1,93 @@
+***Explicativo do Comportamento - Downloader***
+
+---
+
+***OBS: Antes de executar, mantenha o Gerenciador de Tarefas aberto para monitorar processos desconhecidos e, se necessário, encerre-os manualmente para dar continuidade aos estudos!***
+
+---
+
+**Descrição Geral:**
+
+Este arquivo simula o comportamento de um Downloader em um ambiente controlado. Downloaders reais são projetados para baixar e armazenar arquivos de servidores externos, sendo frequentemente utilizados para baixar outros malwares ou conteúdos não autorizados.
+
+---
+
+**Comportamento Simulado:**
+
+1. **Download de Arquivos:**
+   - O script faz o download de **imagens específicas da web** e salva localmente no mesmo diretório onde o arquivo executável está localizado, dentro de uma subpasta chamada `imagens`.
+
+2. **Validação de URLs:**
+   - As URLs dos arquivos são validadas antes do download. Caso alguma URL esteja indisponível, o script exibe uma mensagem de erro.
+
+3. **Criação de Diretórios:**
+   - Caso a pasta `imagens` não exista no diretório de execução, ela será criada automaticamente.
+
+4. **Relatório Detalhado:**
+   - Todas as ações realizadas são registradas em um arquivo `.txt` (nomeado como `relatorio_downloader.txt`), contendo:
+     - Detalhes do sistema.
+     - Lista de imagens baixadas com sucesso.
+     - Mensagens de erro em caso de falhas no download.
+
+5. **Mensagem ao Telegram:**
+   - Durante a execução, o script envia uma mensagem ao Telegram com:
+     - Nome do arquivo executado.
+     - Detalhes do sistema (usuário, host, IPs, privilégios administrativos).
+
+---
+
+**Objetivo Educacional:**
+
+- Demonstrar como um Downloader pode baixar e armazenar arquivos em um sistema.
+- Explicar os riscos de downloaders maliciosos e sua utilização em campanhas de ataques.
+- Sensibilizar sobre os cuidados ao permitir downloads automáticos em sistemas.
+
+---
+
+**Interação do Aluno:**
+
+1. **Execução do Script:**
+   - Ao executar o arquivo, o Downloader será ativado automaticamente.
+   - O progresso dos downloads será exibido no console, indicando sucesso ou falha para cada URL.
+
+2. **Relatório Gerado:**
+   - Todas as ações realizadas pelo Downloader são registradas no arquivo `relatorio_downloader.txt`.
+   - O relatório inclui as imagens baixadas, os caminhos onde foram salvas e erros encontrados durante o processo.
+
+3. **Validação Manual dos Arquivos:**
+   - Após a execução, o aluno pode acessar a pasta `imagens` no diretório de execução e verificar manualmente os arquivos baixados.
+
+---
+
+**Avisos Importantes:**
+
+1. **Simulação Controlada:**
+   - Este script é completamente seguro e baixa apenas imagens de URLs pré-definidas.
+   - Nenhum conteúdo malicioso é baixado ou executado.
+
+2. **Ambiente de Teste:**
+   - Este exemplo deve ser executado apenas em máquinas de teste (máquinas virtuais ou sistemas isolados).
+
+3. **Aprendizado:**
+   - Leia e compreenda este documento antes de executar o arquivo.
+   - Observe o comportamento do Downloader para entender sua aplicação e os riscos associados.
+
+4. **Importância da Documentação:**
+   - O relatório gerado detalha as ações realizadas, permitindo uma análise prática do impacto.
+
+---
+
+**Resumo do Impacto:**
+
+1. **Download de Arquivos:**
+   - O script faz o download de arquivos a partir das URLs definidas, simulando o comportamento de um Downloader real.
+
+2. **Criação de Diretórios:**
+   - Garante que os arquivos baixados sejam organizados de forma consistente em uma pasta específica.
+
+3. **Mensagem ao Telegram:**
+   - Informações sobre o sistema foram notificadas para análise e controle.
+
+---
+
+*** Este exemplo é estritamente educacional e deve ser utilizado exclusivamente para aprendizado em ambientes controlados. ***

@@ -1,0 +1,101 @@
+***Explicativo do Comportamento - Backdoor***
+
+---
+
+***OBS: Antes de executar, mantenha o Gerenciador de Tarefas aberto para monitorar processos desconhecidos e, se necessário, encerre-os manualmente para dar continuidade aos estudos!***
+
+---
+
+**Descrição Geral:**
+
+Este arquivo simula o comportamento de um Backdoor em um ambiente controlado e seguro. Backdoors reais são utilizados por atacantes para obter acesso remoto a sistemas, permitindo a execução de comandos e a manipulação de informações sensíveis.
+
+**Comportamento Simulado:**
+
+1. **Criação de Porta de Comunicação:**
+   - O script abre a porta **4444** localmente, simulando o acesso remoto que um atacante poderia explorar.
+
+2. **Execução de Comandos Críticos:**
+   - Comandos como `netstat -an`, `ipconfig` e `tasklist` são executados para listar conexões de rede, configurações de IP e processos ativos no sistema.
+
+3. **Exploração de Pastas Críticas:**
+   - O conteúdo de pastas relevantes, como `System32/drivers/etc`, `Users/Public` e `ProgramData`, é listado para demonstrar quais informações um atacante poderia explorar.
+
+4. **Geração de Relatório:**
+   - Todas as ações realizadas são registradas em um arquivo `.txt` (nomeado como `relatorio_backdoor.txt`), contendo:
+     - Detalhes do sistema.
+     - Listagens de pastas críticas.
+     - Resultados dos comandos executados.
+     - Informações sobre a porta aberta e seu impacto.
+
+5. **Mensagem ao Telegram:**
+   - Durante a execução, o script envia uma mensagem ao Telegram com:
+     - Nome do arquivo executado.
+     - Detalhes do sistema (usuário, host, IPs, privilégios administrativos).
+
+6. **Exibição em Interface Gráfica:**
+   - Todas as ações são exibidas em uma janela gráfica para facilitar o acompanhamento em tempo real.
+
+---
+
+**Objetivo Educacional:**
+
+- Demonstrar como um Backdoor pode operar, explorando informações do sistema e estabelecendo comunicação remota.
+- Explicar como um atacante pode utilizar Backdoors para monitorar e controlar sistemas.
+- Sensibilizar sobre os riscos associados a acessos não autorizados e a importância de práticas de segurança.
+
+---
+
+**Interação do Aluno:**
+
+1. **Execução do Script:**
+   - Ao executar o arquivo, o Backdoor será ativado automaticamente.
+   - Uma interface gráfica exibirá os logs em tempo real.
+
+2. **Relatório Gerado:**
+   - Todas as ações realizadas pelo Backdoor são registradas no arquivo `relatorio_backdoor.txt`.
+   - O relatório incluirá informações sobre a porta aberta e os comandos executados.
+
+3. **Verificação Manual:**
+   - Após a execução, o aluno poderá verificar a porta aberta utilizando o comando no CMD como Administrador:
+     ```
+     netstat -an | find "4444"
+     ```
+
+---
+
+**Avisos Importantes:**
+
+1. **Simulação Segura:**
+   - Esta simulação é completamente segura e não realiza nenhuma ação maliciosa real fora do ambiente definido.
+   - A porta aberta é local e não estabelece conexão com dispositivos externos.
+
+2. **Ambiente Controlado:**
+   - Este exemplo deve ser executado apenas em máquinas de teste (máquinas virtuais ou sistemas isolados).
+
+3. **Aprendizado:**
+   - Leia e compreenda este documento antes de executar o arquivo.
+   - Observe o comportamento do Backdoor para entender seu impacto e os riscos associados.
+
+4. **Importância da Documentação:**
+   - O relatório gerado detalha as ações realizadas, permitindo uma análise prática do impacto.
+
+---
+
+**Resumo do Impacto:**
+
+1. **Porta Aberta:**
+   - A porta **4444** foi aberta localmente.
+   - Impacto: Permite que comandos sejam enviados remotamente ao sistema por um atacante.
+
+2. **Ações Realizadas:**
+   - Listagem de pastas críticas.
+   - Execução de comandos de sistema.
+   - Registro detalhado no relatório.
+
+3. **Mensagem ao Telegram:**
+   - Informações sobre o sistema foram notificadas para análise e controle educacional.
+
+---
+
+*** Este exemplo é estritamente educacional e deve ser utilizado exclusivamente para aprendizado em ambientes controlados. ***

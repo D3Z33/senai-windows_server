@@ -1,0 +1,62 @@
+*** Explicativo do Comportamento - Adware ***
+
+
+***OBS: Sempre antes de executar, mantenha a janela Gerenciador de Tarefas aberta para encerrar forçadamente as operações que você ver que não são comuns para dar continuidade na visualização de outros Vírus!***
+
+**Descrição Geral:**
+
+Este arquivo simula o comportamento de um Adware em um ambiente controlado e seguro. Adwares reais são projetados para bombardear o usuário com propagandas, links suspeitos ou redirecionamentos para sites externos, causando desconforto e, em alguns casos, comprometendo a segurança do sistema.
+
+**Comportamento Simulado:**
+
+1. **Pop-ups Frequentes:**
+   - O script exibe múltiplos pop-ups aleatórios na tela, com mensagens informando sobre uma vulnerabilidade no sistema.
+
+2. **Redirecionamento:**
+   - O pop-up redireciona para o navegador que será aberto automaticamente 5 urls a cada segundo, direcionando o usuário para um site controlado.
+
+3. **Interrupção:**
+   - O Adware pode ser interrompido ao fechar qualquer pop-up clicando no botão "X".
+
+4. **Velocidade e Persistência:**
+   - Os pop-ups aparecem rapidamente (a cada 1 segundo) e fecham automaticamente após o mesmo período, mantendo uma sensação de invasão contínua.
+
+**Objetivo Educacional:**
+
+- Demonstrar o impacto visual e comportamental causado por Adwares.
+- Explicar como Adwares reais se aproveitam de comportamentos automatizados para irritar o usuário ou redirecioná-lo para sites externos.
+- Enfatizar a importância de práticas de segurança para prevenir e interromper Adwares.
+
+**Interação do Aluno:**
+
+1. **Execução do Script:**
+   - Ao executar o arquivo, o Adware será ativado automaticamente.
+   - O sistema exibirá múltiplos pop-ups com mensagens simuladas.
+
+2. **Ações Disponíveis:**
+   - Clique no link dentro do pop-up para ser redirecionado.
+   - Feche o pop-up clicando no botão "X" para interromper o Adware.
+
+3. **Como Interromper:**
+   - Para parar o Adware, feche qualquer pop-up usando o botão "X". Isso encerrará todos os pop-ups subsequentes.
+
+**Mensagem ao Telegram:**
+
+- Durante a execução, uma mensagem será enviada ao Telegram, informando:
+  - Nome do arquivo executado.
+  - Detalhes do sistema (usuário, host, IP, privilégios administrativos).
+
+**Avisos Importantes:**
+
+1. **Simulação Segura:**
+   - Este exemplo é completamente seguro e não realiza nenhuma ação maliciosa real.
+   - A URL redirecionada é um link controlado e seguro.
+
+2. **Ambiente Controlado:**
+   - Esta simulação deve ser executada apenas em ambientes de teste (máquinas virtuais ou sistemas dedicados para aprendizado).
+
+3. **Aprendizado:**
+   - Leia e compreenda este documento antes de executar o arquivo.
+   - Observe o comportamento do Adware durante a execução para entender seu impacto.
+
+*** Este exemplo é estritamente educacional e não deve ser usado em ambientes de produção. ***

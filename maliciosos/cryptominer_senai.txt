@@ -1,0 +1,95 @@
+***Explicativo do Comportamento - Cryptominer***
+
+---
+
+***OBS: Antes de executar, mantenha o Gerenciador de Tarefas aberto para monitorar processos desconhecidos e, se necessário, encerre-os manualmente para dar continuidade aos estudos!***
+
+---
+
+**Descrição Geral:**
+
+Este arquivo simula o comportamento de um Cryptominer em um ambiente controlado e seguro. Mineradores reais de criptomoedas são projetados para explorar o poder de processamento da CPU ou GPU, consumindo recursos de forma intensiva para resolver cálculos matemáticos complexos e gerar hashes válidos.
+
+---
+
+**Comportamento Simulado:**
+
+1. **Utilização de CPU:**
+   - O script utiliza **todas as threads disponíveis da CPU** para simular o consumo de recursos.
+
+2. **Critério de Validação:**
+   - A mineração busca encontrar hashes válidos que **começam com três zeros ("000")**, simulando a dificuldade presente em redes blockchain.
+
+3. **Execução por Ciclos:**
+   - São realizados **cinco ciclos** de mineração simulada. Cada ciclo gera um hash válido e exibe a taxa de hashes por segundo (H/s).
+
+4. **Relatório Detalhado:**
+   - Todas as ações realizadas são registradas em um arquivo `.txt` (nomeado como `relatorio_cryptominer.txt`), contendo:
+     - Detalhes do sistema.
+     - Hashes válidos encontrados.
+     - Taxas de hash simuladas.
+     - Dificuldade aplicada.
+
+5. **Validação de Hash Simples:**
+   - Após a execução, o hash gerado pode ser validado com um comando no Python ou via scripts simplificados fornecidos.
+
+6. **Mensagem ao Telegram:**
+   - Durante a execução, o script envia uma mensagem ao Telegram com:
+     - Nome do arquivo executado.
+     - Detalhes do sistema (usuário, host, IPs, privilégios administrativos).
+
+---
+
+**Objetivo Educacional:**
+
+- Demonstrar como um Cryptominer pode explorar os recursos do sistema para mineração.
+- Explicar os princípios básicos de hash e dificuldade de mineração.
+- Sensibilizar sobre os riscos de mineradores ocultos (malwares que mineram criptomoedas sem consentimento do usuário).
+
+---
+
+**Interação do Aluno:**
+
+1. **Execução do Script:**
+   - Ao executar o arquivo, o Cryptominer será ativado automaticamente.
+   - Uma interface gráfica exibirá os logs em tempo real, com barra de progresso e status atualizado.
+
+2. **Relatório Gerado:**
+   - Todas as ações realizadas pelo Cryptominer são registradas no arquivo `relatorio_cryptominer.txt`.
+   - O relatório incluirá os hashes encontrados e as taxas de hash simuladas.
+
+3. **Validação de Hash Manual:**
+   - Após a execução, copie um dos hashes válidos encontrados no relatório e use os conceitos usados pelo Professor em outra aula para validação (já inclui o botão de copiar todos, apenas cole no Notepad++ para validação)
+
+**Avisos Importantes:**
+
+1. **Simulação Segura:**
+   - Esta simulação é completamente segura e não realiza nenhuma mineração real.
+   - Nenhum dado é enviado para redes blockchain ou outras plataformas.
+
+2. **Ambiente Controlado:**
+   - Este exemplo deve ser executado apenas em máquinas de teste (máquinas virtuais ou sistemas isolados).
+
+3. **Aprendizado:**
+   - Leia e compreenda este documento antes de executar o arquivo.
+   - Observe o comportamento do Cryptominer para entender o impacto do consumo de recursos.
+
+4. **Importância da Documentação:**
+   - O relatório gerado detalha as ações realizadas, permitindo uma análise prática do impacto.
+
+---
+
+**Resumo do Impacto:**
+
+1. **Consumo de CPU:**
+   - O script utiliza todas as threads da CPU, simulando consumo elevado.
+
+2. **Hashes Válidos Encontrados:**
+   - O script encontra hashes que atendem ao critério de dificuldade (três zeros iniciais).
+
+3. **Mensagem ao Telegram:**
+   - Informações sobre o sistema foram notificadas para análise e controle educacional.
+
+---
+
+*** Este exemplo é estritamente educacional e deve ser utilizado exclusivamente para aprendizado em ambientes controlados. ***
