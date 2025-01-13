@@ -1,12 +1,11 @@
 # 🔒 **Projeto - Windows Server_Senai**
 
----
 
 <div align="center">
 
-[![Status](https://img.shields.io/badge/Status-Concluído-brightgreen?style=for-the-badge)](#)
-[![Linguagem](https://img.shields.io/badge/Linguagem-Python-blue?style=for-the-badge&logo=python)](#)
-[![Licença](https://img.shields.io/badge/Licença-Educacional-orange?style=for-the-badge)](#)
+![🟢 Status](https://img.shields.io/badge/🟢_Status-Concluído-brightgreen?style=for-the-badge) 
+![💻 Linguagem](https://img.shields.io/badge/💻_Linguagem-Python-blue?style=for-the-badge&logo=python) 
+![📜 Licença](https://img.shields.io/badge/📜_Licença-Educacional-orange?style=for-the-badge)
 
 </div>
 
