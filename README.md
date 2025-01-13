@@ -172,14 +172,34 @@ Este projeto foi um verdadeiro laboratório de aprendizado, onde cada obstáculo
 - 🔐 **Criar um bypass no Windows Defender**: Aqui a complexidade foi elevada! O desafio era demonstrar, de forma educativa, como permissões mal configuradas podem abrir portas para ataques. Desenvolvi um método criativo para desativar o Windows Defender temporariamente, com o consentimento do usuário, e demonstrar as consequências dessa ação.  
 - 📄 **Documentar cada arquivo malicioso**: Um dos maiores esforços foi garantir que cada ameaça tivesse uma documentação clara e didática. Isso incluiu a criação de explicações detalhadas no formato `.txt`, que orientavam os usuários sobre o funcionamento, impacto e as formas de mitigação das ameaças representadas.
 
-### 🎉 **Destaques do Projeto**
+## 🎉 Destaques do Projeto
+
 O projeto não apenas entregou aprendizado técnico, mas também me trouxe momentos memoráveis que marcaram a jornada de desenvolvimento. Eis os maiores destaques:
 
-- 🌟 **Gamificação inovadora**: Transformamos um exercício técnico em uma experiência divertida e interativa. Questões hilárias, pop-ups dinâmicos, mensagens provocativas e uma barra de progresso cativante garantiram que o aprendizado fosse leve e envolvente, mantendo o aluno imerso no desafio do início ao fim.  
-- 😲 **Exploração real de vulnerabilidades**: Em um dos momentos mais marcantes, descobrimos uma falha real nos sistemas da sala. Sim, ao ajustar a data e hora do sistema, conseguimos explorar o cache de senhas administrativas armazenadas localmente. Isso nos permitiu elevar privilégios e controlar todas as máquinas conectadas.  
-- 🖥️ **Controle remoto total**: Utilizando comandos como `arp` e `nmap`, mapeei a rede inteira e desenvolvi scripts que me permitiu desligar ou reiniciar máquinas remotamente. Este recurso não apenas demonstrou o impacto de permissões elevadas, mas também enfatizou a importância de boas práticas na configuração de redes e sistemas.  
-- 🎮 **O botão \"Tudo ou Nada\"**: Como parte do design interativo, incluí um botão que, ao ser clicado, iniciava um ciclo de execução do código completo. Esse elemento trouxe um toque de suspense e engajamento ao final da experiência.  
-- 🍒 **A cereja do bolo**: O que realmente tornou o projeto único foi o desfecho épico. Não só consegui mapear toda a rede da sala, mas também explorei com sucesso a brecha de cache de senhas para elevar privilégios em massa. Cada máquina conectada ficou sob meu controle \u2014 mas sempre com o foco educacional. Este momento coroou meses de aprendizado e dedicação, mostrando como o conhecimento pode ser poderoso quando aplicado com responsabilidade.  
+- 🌟 **Gamificação inovadora**:  
+  Transformamos um exercício técnico em uma experiência divertida e interativa. Questões hilárias, pop-ups dinâmicos, mensagens provocativas e uma barra de progresso cativante garantiram que o aprendizado fosse leve e envolvente, mantendo o aluno imerso no desafio do início ao fim.
+
+<br>
+
+- 🤯 **Exploração real de vulnerabilidades**:  
+  Em um dos momentos mais marcantes, descobrimos uma falha real nos sistemas da sala. Sim, ao ajustar a data e hora do sistema, conseguimos explorar o cache de senhas administrativas armazenadas localmente. Isso nos permitiu elevar privilégios e controlar todas as máquinas conectadas.
+
+<br>
+
+- 💻 **Controle remoto total**:  
+  Utilizando comandos como `arp` e `nmap`, mapeei a rede inteira e desenvolvi scripts que me permitiu desligar ou reiniciar máquinas remotamente. Este recurso não apenas demonstrou o impacto de permissões elevadas, mas também enfatizou a importância de boas práticas na configuração de redes e sistemas.
+
+<br>
+
+- 🎮 **O botão "Tudo ou Nada"**:  
+  Como parte do design interativo, incluí um botão que, ao ser clicado, iniciava um ciclo de execução do código completo. Esse elemento trouxe um toque de suspense e engajamento ao final da experiência.
+
+<br>
+
+- 🍒 **A cereja do bolo**:  
+  O que realmente tornou o projeto único foi o desfecho épico. Não só consegui mapear toda a rede da sala, mas também explorei com sucesso a brecha de cache de senhas para elevar privilégios em massa. Cada máquina conectada ficou sob meu controle — mas sempre com o foco educacional. Este momento coroou meses de aprendizado e dedicação, mostrando como o conhecimento pode ser poderoso quando aplicado com responsabilidade.
+
+<br>
 
 Este projeto não foi apenas uma demonstração técnica; foi uma experiência completa que misturou aprendizado, criatividade e momentos de descoberta. Ele mostrou como é possível transformar desafios em oportunidades e como cada linha de código pode contar uma história de inovação e impacto.
 
