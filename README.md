@@ -1,6 +1,8 @@
 # 🔒 **Projeto - Windows Server_Senai**
 
-![Logo do Projeto](arquivos/senai_logo.png)
+<div align="center">
+  <img src="senai-windows_server/arquivos/senai_logo.png" alt="Logo do Projeto">
+</div>
 
 ---
 
