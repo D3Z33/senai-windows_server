@@ -206,26 +206,55 @@ Cada arquivo malicioso acompanha um **.txt explicativo** para oferecer uma exper
 
 Agora que deixamos isso claro, aqui vai o guia para os **responsáveis e preparados**:
 
-1. **Execute o arquivo `prova.py`** em uma máquina virtual com as permissões devidamente configuradas. Lembre-se: ambiente isolado, sem exceções.  
-2. **Responda às questões** dentro do tempo limite de cada pergunta. O temporizador está lá para pressionar, não para enfeitar.  
-3. **Explore as pastas e arquivos gerados** para compreender os cenários simulados. Cada arquivo é uma lição prática de como algo aparentemente inofensivo pode se tornar um grande problema.  
-4. **Limpe tudo ao terminar** utilizando o script `remover_arquivos.py`. Afinal, ninguém quer deixar rastros maliciosos no sistema (nem mesmo no ambiente controlado).  
+1. **Execute o arquivo `prova.py`** em uma máquina virtual com as permissões devidamente configuradas.  
+   Lembre-se: ambiente isolado, sem exceções.  
 
-⚡ **Aviso importante**: Qualquer tentativa de executar este projeto em ambientes inadequados, sem conhecimento ou sem a devida responsabilidade, pode resultar em **consequências desastrosas** (e provavelmente engraçadas… para os outros, não para você). Lembre-se: a melhor defesa contra ataques cibernéticos é o conhecimento, e não a imprudência. 😉
+2. **Responda às questões** dentro do tempo limite de cada pergunta.  
+   O temporizador está lá para pressionar, não para enfeitar.  
 
-Se você chegou até aqui, parabéns! Agora, seja sensato, divirta-se com o aprendizado e leve esta experiência como um poderoso exemplo de como a segurança digital nunca deve ser subestimada.
+3. **Explore as pastas e arquivos gerados** para compreender os cenários simulados.  
+   Cada arquivo é uma lição prática de como algo aparentemente inofensivo pode se tornar um grande problema.  
+
+4. **Limpe tudo ao terminar** utilizando o script `remover_arquivos.py`.  
+   Afinal, ninguém quer deixar rastros maliciosos no sistema (nem mesmo no ambiente controlado).  
+
+---
+
+⚡ **Aviso importante**:  
+Qualquer tentativa de executar este projeto em ambientes inadequados, sem conhecimento ou sem a devida responsabilidade, pode resultar em **consequências desastrosas** (e provavelmente engraçadas… para os outros, não para você).  
+
+Lembre-se: a melhor defesa contra ataques cibernéticos é o conhecimento, e não a imprudência. 😉
+
+---
+
+Se você chegou até aqui, parabéns!  
+Agora, seja sensato, divirta-se com o aprendizado e leve esta experiência como um poderoso exemplo de como a segurança digital nunca deve ser subestimada.
 
 ---
 
 ## **Aprendizados e Impacto**
 
 ### 🎯 **Desafios Superados**
-Este projeto foi um verdadeiro laboratório de aprendizado, onde cada obstáculo se tornou uma oportunidade para crescer e aprimorar habilidades. Entre os maiores desafios superados, podemos destacar:
 
-- 🚀 **Desenvolver uma interface intuitiva e responsiva com Tkinter**: Criar uma interface que fosse ao mesmo tempo funcional, esteticamente agradável e educativa foi um desafio recompensador. Foi necessário combinar elementos visuais com funcionalidades práticas, garantindo uma navegação fluida e engajante para os usuários.  
-- 🔧 **Implementar tratativas de erro robustas**: Não podíamos deixar margem para erros comprometedores. Cada detalhe foi trabalhado para prevenir falhas e garantir uma experiência controlada e segura. Isso incluiu mensagens dinâmicas, feedbacks imediatos para entradas inválidas e mecanismos para lidar com situações inesperadas.  
-- 🔐 **Criar um bypass no Windows Defender**: Aqui a complexidade foi elevada! O desafio era demonstrar, de forma educativa, como permissões mal configuradas podem abrir portas para ataques. Desenvolvi um método criativo para desativar o Windows Defender temporariamente, com o consentimento do usuário, e demonstrar as consequências dessa ação.  
-- 📄 **Documentar cada arquivo malicioso**: Um dos maiores esforços foi garantir que cada ameaça tivesse uma documentação clara e didática. Isso incluiu a criação de explicações detalhadas no formato `.txt`, que orientavam os usuários sobre o funcionamento, impacto e as formas de mitigação das ameaças representadas.
+Este projeto foi um verdadeiro laboratório de aprendizado, onde cada obstáculo se tornou uma oportunidade para crescer e aprimorar habilidades.  
+
+Entre os maiores desafios superados, podemos destacar:  
+
+- 🚀 **Desenvolver uma interface intuitiva e responsiva com Tkinter**:  
+  Criar uma interface que fosse ao mesmo tempo funcional, esteticamente agradável e educativa foi um desafio recompensador.  
+  Foi necessário combinar elementos visuais com funcionalidades práticas, garantindo uma navegação fluida e engajante para os usuários.  
+
+- 🔧 **Implementar tratativas de erro robustas**:  
+  Não podíamos deixar margem para erros comprometedores. Cada detalhe foi trabalhado para prevenir falhas e garantir uma experiência controlada e segura.  
+  Isso incluiu mensagens dinâmicas, feedbacks imediatos para entradas inválidas e mecanismos para lidar com situações inesperadas.  
+
+- 🔐 **Criar um bypass no Windows Defender**:  
+  Aqui a complexidade foi elevada! O desafio era demonstrar, de forma educativa, como permissões mal configuradas podem abrir portas para ataques.  
+  Desenvolvi um método criativo para desativar o Windows Defender temporariamente, com o consentimento do usuário, e demonstrar as consequências dessa ação.  
+
+- 📄 **Documentar cada arquivo malicioso**:  
+  Um dos maiores esforços foi garantir que cada ameaça tivesse uma documentação clara e didática.  
+  Isso incluiu a criação de explicações detalhadas no formato `.txt`, que orientavam os usuários sobre o funcionamento, impacto e as formas de mitigação das ameaças representadas.  
 
 ## 🎉 Destaques do Projeto
 
