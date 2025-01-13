@@ -41,7 +41,7 @@ A exploração de permissões administrativas ou configurações inadequadas do 
 
 - **Adware (`adware_senai.py`)**: Simula a criação de janelas pop-up persistentes, demonstrando como softwares invasivos podem bombardear o sistema com anúncios.  
 - **Backdoor (`backdoor_senai.py`)**: Abre uma porta de comunicação (4444), permitindo acesso remoto e coletando informações sensíveis como IP, hardware e versão do sistema operacional.  
-- **Cryptominer (`cryptominer_senai.txt`)**: Mostra o impacto de um minerador de criptomoedas, utilizando recursos da máquina de forma indesejada e consumindo CPU e memória.  
+- **Cryptominer (`cryptominer_senai.py`)**: Mostra o impacto de um minerador de criptomoedas, utilizando recursos da máquina de forma indesejada e consumindo CPU e memória.  
 - **Downloader (`downloader_senai.py`)**: Automatiza o download e a execução de arquivos adicionais, exemplificando como um malware pode expandir seu alcance.  
 - **File Manager (`file_manager.py`)**: Manipula pastas e arquivos do sistema, destacando o perigo de permissões mal configuradas.  
 - **Keylogger (`keylogger_senai.py`)**: Captura as entradas de teclado do usuário, simulando o roubo de credenciais e outras informações sensíveis.  
