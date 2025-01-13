@@ -21,10 +21,14 @@
 
 ## 📋 **Tabela de Conteúdos**
 
-1️⃣ [Sobre o Projeto](#sobre-o-projeto)  
+1️⃣ [Sobre o Projeto](#sobre-o-projeto)
+<br>
 2️⃣ [Estrutura do Projeto](#estrutura-do-projeto)  
+<br>
 3️⃣ [Como Usar](#como-usar)  
+<br>
 4️⃣ [Aprendizados e Impacto](#aprendizados-e-impacto)  
+<br>
 5️⃣ [Contato e Redes](#-contato-e-redes)
 
 ---
@@ -47,39 +51,61 @@ Prepare-se para um projeto que combina:
 ## **Principais Funcionalidades**
 
 ### 🖥️ **Interface Interativa**
+<br>
 - Desenvolvida com **Tkinter**, a interface oferece uma experiência **imersiva e dinâmica**:
   - **Pop-ups interativos**: Alguns necessitam de interação do aluno para prosseguir, enquanto outros simulam eventos automáticos do sistema.
+<br>
   - **Questões aleatórias**: 15 perguntas criadas para ensinar de forma leve e divertida.
+<br>
   - **Temporizador**: 60 segundos por pergunta, com reinício a cada nova questão. Na última, o tempo é congelado para encerramento da prova.
+<br>
   - **Barra de progresso**: Acompanhada de mensagens motivadoras (ou provocativas) que evoluem conforme o desempenho do aluno.
+<br>
+<br>
 
 ### 🛡️ **Arquivos Maliciosos Educativos**
 - **9 exemplos simulados de ameaças reais**: Incluem Backdoor, Keylogger, Worm, Adware, etc.
+<br>
   - Arquivos maliciosos são inseridos em **pastas pouco usuais** no sistema.
+<br>
   - Cada arquivo acompanha um **.txt explicativo**, detalhando o impacto e a forma de mitigação.
+<br>
   - **Execução bloqueada** sem a leitura prévia do arquivo .txt, garantindo que o aluno entenda os riscos antes de prosseguir.
-
+<br>
+<br>
 ### 🔒 **Escalação de Privilégios**
 
 A exploração de permissões administrativas ou configurações inadequadas do sistema foi exemplificada por 9 arquivos maliciosos cuidadosamente desenvolvidos, cada um simulando uma ameaça real. Aqui está um **spoiler** do que cada um deles faz:
-
-- **Adware (`adware_senai.py`)**: Simula a criação de janelas pop-up persistentes, demonstrando como softwares invasivos podem bombardear o sistema com anúncios.  
-- **Backdoor (`backdoor_senai.py`)**: Abre uma porta de comunicação (4444), permitindo acesso remoto e coletando informações sensíveis como IP, hardware e versão do sistema operacional.  
-- **Cryptominer (`cryptominer_senai.py`)**: Mostra o impacto de um minerador de criptomoedas, utilizando recursos da máquina de forma indesejada e consumindo CPU e memória.  
-- **Downloader (`downloader_senai.py`)**: Automatiza o download e a execução de arquivos adicionais, exemplificando como um malware pode expandir seu alcance.  
-- **File Manager (`file_manager.py`)**: Manipula pastas e arquivos do sistema, destacando o perigo de permissões mal configuradas.  
-- **Keylogger (`keylogger_senai.py`)**: Captura as entradas de teclado do usuário, simulando o roubo de credenciais e outras informações sensíveis.  
-- **Spyware (`spyware_senai.py`)**: Monitora atividades no sistema, coletando dados confidenciais como histórico de navegação e uso de aplicativos.  
-- **Notifier (`notifi_senai.py`)**: Envia relatórios e notificações sobre atividades da máquina para um destinatário remoto, ilustrando um comportamento típico de malwares de vigilância.  
+<br>
+- **Adware (`adware_senai.py`)**: Simula a criação de janelas pop-up persistentes, demonstrando como softwares invasivos podem bombardear o sistema com anúncios.
+<br>
+- **Backdoor (`backdoor_senai.py`)**: Abre uma porta de comunicação (4444), permitindo acesso remoto e coletando informações sensíveis como IP, hardware e versão do sistema operacional.
+<br>
+- **Cryptominer (`cryptominer_senai.py`)**: Mostra o impacto de um minerador de criptomoedas, utilizando recursos da máquina de forma indesejada e consumindo CPU e memória.
+<br>
+- **Downloader (`downloader_senai.py`)**: Automatiza o download e a execução de arquivos adicionais, exemplificando como um malware pode expandir seu alcance.
+<br>
+- **File Manager (`file_manager.py`)**: Manipula pastas e arquivos do sistema, destacando o perigo de permissões mal configuradas.
+<br>
+- **Keylogger (`keylogger_senai.py`)**: Captura as entradas de teclado do usuário, simulando o roubo de credenciais e outras informações sensíveis.
+<br>
+- **Spyware (`spyware_senai.py`)**: Monitora atividades no sistema, coletando dados confidenciais como histórico de navegação e uso de aplicativos.
+<br>
+- **Notifier (`notifi_senai.py`)**: Envia relatórios e notificações sobre atividades da máquina para um destinatário remoto, ilustrando um comportamento típico de malwares de vigilância.
+<br>
 - **Worm (`worm_senai.py`)**: Demonstra a propagação autônoma em dispositivos conectados, simulando um cenário de ataque em rede.
-
+<br>
 Cada arquivo acompanha um `.txt` explicativo, detalhando o funcionamento, o impacto e as medidas de mitigação associadas à ameaça. Esses arquivos foram projetados para proporcionar uma experiência educacional imersiva, enfatizando os riscos e desafios enfrentados no ambiente corporativo.
-
+<br>
+<br>
 ### 📲 **Integração com Telegram**
 - Envio de **dados em tempo real** para o Telegram de informações cruciais diretamente para o Telegram, garantindo total controle e monitoramento das atividades da prova:
+<br>
   - Dados coletados incluem: endereço IP, permissões de usuário, localização (quando disponível), tipo de conta, sistema operacional, e diversos detalhes adicionais.
+<br>
   - Relatórios detalhados sobre a execução de cada arquivo malicioso são enviados, permitindo análise precisa e rápida das interações realizadas durante a prova.
-
+<br>
+<br>
 ### 🧹 **Scripts de Limpeza**
 - Inclui o arquivo `remover_arquivos.py`, que permite ao aluno limpar o ambiente de teste após concluir a prova.
 
@@ -89,52 +115,72 @@ Cada arquivo acompanha um `.txt` explicativo, detalhando o funcionamento, o impa
 
 ### **Pasta: `arquivos`**
 A pasta `arquivos` contém os componentes essenciais para o funcionamento do projeto, cada um desempenhando um papel crítico na execução e interação da prova. Aqui está um detalhamento de cada arquivo:
+<br>
 
 - 🧠 **`prova.py`**: O coração do projeto. Este é o arquivo principal que executa a prova interativa, gerenciando perguntas, respostas, temporizadores e toda a interface baseada em Tkinter.
+<br>
 
 - 🧹 **`remover_arquivos.py`**: Script dedicado à limpeza do ambiente após a execução da prova. Ele remove todos os arquivos maliciosos simulados e restaura o sistema ao estado inicial.
+<br>
 
 - 🛠️ **`utilitarios.py`**: Um conjunto de funções auxiliares que oferece suporte geral ao projeto. Este arquivo gerencia operações de fundo, como validações, manipulação de arquivos e elementos gráficos.
+<br>
 
 - 📲 **`notificacao_prova.py`**: Gerencia a integração com o Telegram. Ele envia notificações em tempo real com detalhes das execuções realizadas, incluindo informações sensíveis como IP, permissões de usuário e muito mais.
+<br>
 
 - 🔌 **`desligar_maquina.py`**: Responsável pelo controle remoto de dispositivos conectados. Este script permite desligar ou reiniciar máquinas de forma programada, destacando as brechas de permissões administrativas.
+<br>
 
 - 👀 **`monitor_arquivos.py`**: Monitora as atividades durante a execução da prova, garantindo o registro de eventos relevantes e o funcionamento correto dos scripts maliciosos simulados.
+<br>
 
 - 🖼️ **`senai_logo.png`**: Arquivo de imagem utilizado na interface gráfica do projeto, reforçando a identidade visual do sistema.
+<br>
 
 Cada um desses arquivos foi desenvolvido com modularidade em mente, garantindo um código organizado e de fácil manutenção.
+<br>
+<br>
 
 ### **Pasta: `maliciosos`**
 A pasta `maliciosos` armazena os arquivos simulados que representam diferentes tipos de ameaças cibernéticas. Cada arquivo foi projetado para educar sobre seu funcionamento e impacto. Aqui está uma visão geral:
+<br>
 
 - 🛡️ **`backdoor_senai.py`**: Simula uma backdoor, abrindo a porta 4444 para conexões externas e coletando dados sensíveis como IP e hardware.  
   - 📄 **`backdoor_senai.txt`**: Explica o funcionamento da backdoor e como mitigar os riscos associados.
+<br>
 
 - 📊 **`adware_senai.py`**: Gera pop-ups incessantes para demonstrar como softwares adware podem bombardear um sistema.  
   - 📄 **`adware_senai.txt`**: Descreve o impacto do adware e as melhores práticas para evitá-lo.
+<br>
 
 - 💻 **`keylogger_senai.py`**: Captura entradas do teclado, simulando um ataque de roubo de credenciais.  
   - 📄 **`keylogger_senai.txt`**: Explica como funciona um keylogger e as formas de prevenção.
+<br>
 
 - 🔄 **`worm_senai.py`**: Demonstra como um worm se replica e se propaga para outros dispositivos conectados.  
   - 📄 **`worm_senai.txt`**: Fornece detalhes sobre a propagação de worms e estratégias de contenção.
+<br>
 
 - 💾 **`file_manager.py`**: Manipula arquivos e pastas para mostrar o que um malware pode fazer com permissões excessivas.  
   - 📄 **`file_manager.txt`**: Detalha os riscos e as medidas de proteção.
+<br>
 
 - 🕵️ **`spyware_senai.py`**: Monitora atividades no sistema, coletando informações confidenciais como histórico de navegação.  
   - 📄 **`spyware_senai.txt`**: Explica como os spywares operam e como proteger sua privacidade.
+<br>
 
 - 🚀 **`downloader_senai.py`**: Baixa e executa arquivos adicionais automaticamente, ampliando o alcance do ataque.  
   - 📄 **`downloader_senai.txt`**: Descreve os perigos do downloader e formas de mitigação.
+<br>
 
 - 💰 **`cryptominer_senai.py`**: Simula a mineração de criptomoedas, consumindo recursos do sistema sem permissão.  
   - 📄 **`cryptominer_senai.txt`**: Explica o impacto dos mineradores e as maneiras de detectar sua presença.
+<br>
 
 - 📢 **`notifi_senai.py`**: Envia notificações com dados capturados para um ponto remoto, simulando o comportamento de spyware avançado.  
   - 📄 **`notifi_senai.txt`**: Detalha as funções do script e como rastrear seu funcionamento.
+<br>
 
 Cada arquivo malicioso acompanha um **.txt explicativo** para oferecer uma experiência educacional completa, detalhando o impacto e as medidas de mitigação. Esses exemplos foram projetados para ilustrar ameaças reais de forma segura e controlada.
 
@@ -145,9 +191,13 @@ Cada arquivo malicioso acompanha um **.txt explicativo** para oferecer uma exper
 > ⚠️ **Atenção:**  
 > Este projeto foi criado **exclusivamente para fins educacionais** e deve ser utilizado **apenas em ambientes controlados**.  
 > Ele não foi feito para brincadeiras irresponsáveis ou experimentos fora de contexto. Se você está pensando em executá-lo no seu sistema principal, **pare agora mesmo e repense suas escolhas**!  
->  
-> Por questões de segurança (e sanidade), **o código-fonte não será fornecido a qualquer pessoa**. Apenas aqueles que **realmente entendem o que estão fazendo** terão acesso, e isso significa saber compilar, executar e **não causar caos desnecessário no sistema ou na rede**.  
-> Se você não tem certeza, consulte alguém que saiba ou… melhor ainda, estude mais antes de tentar algo assim. 🧠
+<br>
+
+> Por questões de segurança (e sanidade), **o código-fonte não será fornecido a qualquer pessoa**. Apenas aqueles que **realmente entendem o que estão fazendo** terão acesso, e isso significa saber compilar, executar e **não causar caos desnecessário no sistema ou na rede**.
+<br>
+ 
+> Se você não tem certeza, consulte alguém que saiba ou… melhor ainda, estude mais antes de tentar. 🧠
+<br>
 
 Agora que deixamos isso claro, aqui vai o guia para os **responsáveis e preparados**:
 
