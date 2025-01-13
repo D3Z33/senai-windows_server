@@ -1,6 +1,14 @@
 # 🔒 **Projeto - Windows Server_Senai**
 
 <div align="center">
+
+![Status](https://img.shields.io/badge/Status-Concluído-brightgreen) 
+![Linguagem](https://img.shields.io/badge/Linguagem-Python-blue) 
+![Licença](https://img.shields.io/badge/Licença-Educacional-important)
+
+</div>
+
+<div align="center">
   <img src="senai-windows_server/arquivos/senai_logo.png" alt="Logo do Projeto">
 </div>
 
